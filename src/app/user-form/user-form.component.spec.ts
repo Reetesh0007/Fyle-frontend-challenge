@@ -18,4 +18,8 @@ describe('UserFormComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  it("testing title",()=>{
+  expect(component.componentName).toBe("user-form")
+     })
 });
+
